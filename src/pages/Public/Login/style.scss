@@ -1,0 +1,22 @@
+#login-page {
+  ion-content {
+    .login-logo {
+      width: 220px;
+      height: 220px;
+      margin: auto;
+    }
+    .login-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    ion-button {
+      &.signup-btn {
+        font-size: 14px;
+        font-weight: 600;
+        &::part(native) {
+          padding: 0px;
+        }
+      }
+    }
+  }
+}

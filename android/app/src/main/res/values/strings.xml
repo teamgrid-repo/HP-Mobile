@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HerPlan</string>
+    <string name="title_activity_main">HerPlan</string>
+    <string name="package_name">com.mobile.herplan</string>
+    <string name="custom_url_scheme">com.mobile.herplan</string>
+    <string name="facebook_app_id">4907189219356872</string>
+    <string name="facebook_client_token">58aa28a3c26c5daaf91562544bc405d9</string>
+</resources>

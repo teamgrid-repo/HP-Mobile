@@ -1,0 +1,14 @@
+.additional-member-list {
+  padding: 20px 0px;
+  height: 100%;
+  ion-item {
+    p {
+      &.rec-delete {
+        color: var(--ion-color-danger);
+      }
+      &.rec-create {
+        color: var(--ion-color-primary);
+      }
+    }
+  }
+}

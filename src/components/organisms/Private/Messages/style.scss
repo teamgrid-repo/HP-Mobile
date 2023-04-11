@@ -1,0 +1,62 @@
+.room-item {
+  --min-height: 66px;
+  --padding-start: 30px;
+  --inner-padding-end: 18px;
+  .room-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  .room-last-msg {
+    font-size: 9px;
+  }
+  .room-suffix-wrapper {
+    max-width: 95px;
+    text-align: right;
+    .room-date {
+      font-size: 11px;
+    }
+    .room-count {
+      float: right;
+      width: 16px;
+      height: 16px;
+      font-size: 10px;
+      background-color: var(--ion-color-success);
+      border-radius: 50%;
+      display: flex;
+      span {
+        margin: auto;
+        font-size: 9px;
+        color: white;
+      }
+    }
+  }
+  .room-item-desc-wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    margin: auto;
+    .room-item-desc-1 {
+      display: flex;
+      flex-direction: column;
+      .room-item-name {
+        font-size: 11px;
+        font-weight: bold;
+      }
+      .room-item-message {
+        font-size: 9px;
+      }
+    }
+    .room-item-desc-2 {
+      display: flex;
+      flex-direction: column;
+      .room-item-date {
+        font-size: 9px;
+      }
+      .room-item-count {
+        font-size: 9px;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="311 25.95 25 25"><g
+    data-name="Group 37"
+  ><g data-name="Group 36" transform="translate(310 25)" clip-path="url(&quot;#a&quot;)"><path
+        d="M1 13.4a12.5 12.5 0 1 1 0 .1z"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        stroke-width="1.5"
+        fill="transparent"
+        data-name="Ellipse 5"
+      /><path
+        d="M9 9.4a4.5 4.5 0 1 1 0 .1z"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        stroke-width="1.5"
+        fill="transparent"
+        data-name="Ellipse 6"
+      /><path
+        d="M6.79 23.625c.338-4.719 3.213-8.393 6.71-8.393 1.863 0 3.55 1.044 4.779 2.723 1.067 1.492 1.782 3.47 1.93 5.67"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        stroke-width="1.5"
+        fill="transparent"
+        data-name="Path 242"
+      /></g></g><defs><clipPath id="a"><path
+        d="M0 0h27v27H0V0z"
+        data-name="Rectangle 6"
+      /></clipPath></defs></svg>

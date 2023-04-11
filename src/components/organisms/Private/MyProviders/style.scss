@@ -1,0 +1,28 @@
+.provider-directory-list {
+  padding: 0;
+  margin-bottom: 20px;
+  height: 100%;
+  .provider-directory-item {
+    --padding-start: 30px;
+    --inner-padding-end: 30px;
+    .address-item {
+      display: flex;
+      color: gray;
+      span {
+        font-size: 12px;
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+.my-provider-filters {
+  ion-item {
+    &.actions-item {
+      --min-height: 28px;
+      ion-button {
+        margin: 0px;
+      }
+    }
+  }
+}

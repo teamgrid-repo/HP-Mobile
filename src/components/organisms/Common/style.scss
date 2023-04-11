@@ -1,0 +1,28 @@
+.take-quiz-container {
+  background: url("../../../assets/images/TakeQuizBG.png") no-repeat center center / cover;
+  padding: 22px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #2262accc;
+  }
+  .take-quiz-text {
+    z-index: 1;
+    color: white;
+    text-align: center;
+  }
+  .take-quiz-btn {
+    z-index: 1;
+    --color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,47 @@
+vars:
+  BUNDLE_ID:
+    default: com.mobile.herplan
+  PACKAGE_NAME:
+    default: com.mobile.herplan
+
+platforms:
+  android:
+    versionName: 1.0.1
+  ios:
+    targets:
+      App:
+        bundleId: $BUNDLE_ID
+        version: 1.0.1
+        buildNumber: 1
+        displayName: HerPlan
+
+        plist:
+          replace: false
+          entries:
+            - NSLocationAlwaysAndWhenInUseUsageDescription: To show your location
+            - NSLocationAlwaysUsageDescription: We want to track your location
+            - NSLocationWhenInUseUsageDescription: We want current your location
+            - NSCameraUsageDescription: To capture images
+            - NSPhotoLibraryAddUsageDescription: To Add images
+            - NSPhotoLibraryUsageDescription: To use images
+            - FacebookAppID: "4907189219356872"
+            - CFBundleURLTypes:
+                - CFBundleURLSchemes:
+                    - com.googleusercontent.apps.759230965822-ciitnedhb45eiqlcvfe9rvd48re4usgl
+                    - fb4907189219356872
+            - LSApplicationQueriesSchemes:
+                - fbapi
+                - fbapi20130214
+                - fbapi20130410
+                - fbapi20130702
+                - fbapi20131010
+                - fbapi20131219
+                - fbapi20140410
+                - fbapi20140116
+                - fbapi20150313
+                - fbapi20150629
+                - fbapi20160328
+                - fbauth
+                - fb-messenger-share-api
+                - fbauth2
+                - fbshareextension

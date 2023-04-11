@@ -1,0 +1,54 @@
+#sender-msg-container {
+  display: flex;
+  justify-content: flex-end;
+  .msg-content {
+    .msg-text {
+      background-color: #eeeeee;
+    }
+  }
+}
+
+#receive-msg-container {
+  display: flex;
+  justify-content: flex-start;
+
+  ion-avatar {
+    margin-top: 18px;
+  }
+  .msg-content {
+    .msg-username {
+      color: #7e7e7e;
+      font-size: 9px;
+      margin-bottom: 4px;
+    }
+    .msg-text {
+      border: 1px solid #eeeeee;
+    }
+    .msg-time {
+      text-align: right;
+    }
+  }
+}
+
+// common
+.msg-content {
+  display: flex;
+  flex-direction: column;
+  &.msg-image-content {
+    width: 50%;
+    .msg-image {
+      width: 100%;
+    }
+  }
+  .msg-text {
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #171725;
+  }
+  .msg-time {
+    color: #7e7e7e;
+    font-size: 9px;
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,34 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24.612"
+  height="24.612"
+  viewBox="220.367 26.021 24.612 24.612"
+><g data-name="Group 38"><g data-name="Group 41"><g
+        data-name="Group 40"
+        transform="translate(219 25)"
+        clip-path="url(&quot;#a&quot;)"
+      ><path
+          d="M25.979 20.163V1.021H1.367v24.612l5.47-5.47h19.142Z"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-width="1.5"
+          fill="transparent"
+          data-name="Path 244"
+        /></g></g><path
+      d="M227 33h11"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="1.5"
+      fill="transparent"
+      data-name="Line 5"
+    /><path
+      d="M227 38h11"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="1.5"
+      fill="transparent"
+      data-name="Line 6"
+    /></g><defs><clipPath id="a"><path
+        d="M0 0h28v27H0V0z"
+        data-name="Rectangle 10"
+      /></clipPath></defs></svg>

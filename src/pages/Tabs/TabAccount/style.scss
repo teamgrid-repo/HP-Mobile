@@ -1,0 +1,33 @@
+#tab-account-page {
+  .header-group {
+    padding: 20px 40px 10px 40px;
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .profile-info {
+      display: flex;
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+
+  .account-list {
+    // margin-top: 40px;
+    ion-item {
+      --padding-start: 40px;
+      --inner-padding-end: 40px;
+      --inner-padding-top: 20px;
+      --inner-padding-bottom: 20px;
+      ion-label {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}

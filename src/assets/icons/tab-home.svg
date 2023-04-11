@@ -1,0 +1,18 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="27.9"
+  height="27.426"
+  viewBox="0 0 27.9 27.426"
+><defs><style
+    >.a,.c{fill:none;stroke:#7dbaaf;stroke-width:2px;}.b{clip-path:url(#a);}.c{stroke-linejoin:round;}</style><clipPath
+      id="a"
+    ><rect class="a" width="27.9" height="27.426" /></clipPath></defs><g class="b"><path
+      class="c"
+      d="M30.866,28.88V44.44H25.092V37.223H16.431V44.44H10.658V28.88"
+      transform="translate(-6.812 -18.458)"
+    /><path
+      class="c"
+      d="M2.658,15.548,15.649,4,28.64,15.548"
+      transform="translate(-1.699 -2.557)"
+    /></g></svg>

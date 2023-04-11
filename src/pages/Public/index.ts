@@ -1,0 +1,12 @@
+export * from "./ForgotPassword";
+export * from "./Register";
+export { default as Login } from "./Login";
+export { default as ProviderSearch } from "./ProviderSearch";
+export { default as ProviderDetails } from "./ProviderDetails";
+export { default as Quiz } from "./Quiz";
+export { default as QuizStep1 } from "./Quiz/QuizStep1";
+export { default as QuizStep2 } from "./Quiz/QuizStep2";
+export { default as QuizStep3 } from "./Quiz/QuizStep3";
+export { default as QuizStep4 } from "./Quiz/QuizStep4";
+export { default as QuizResult } from "./Quiz/QuizResult";
+export { default as Welcome } from "./Welcome";

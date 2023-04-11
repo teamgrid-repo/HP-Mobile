@@ -1,0 +1,11 @@
+.custom-phone-input {
+  background-color: transparent;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  min-height: 42px;
+  padding-left: 21px !important;
+  width: 100%;
+}
+input:focus-visible {
+  outline: none;
+}

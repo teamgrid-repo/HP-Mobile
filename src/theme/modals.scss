@@ -1,0 +1,59 @@
+ion-modal {
+  &.leaf-info-modal {
+    --width: 90%;
+    --min-width: 90%;
+    --height: fit-content;
+    --border-radius: 8px;
+    &::part(content) {
+      margin: auto 0 24px 0;
+    }
+    span {
+      line-height: 20px;
+      font-size: 14px;
+      color: #7e7e7e;
+    }
+  }
+  &.opt-share-data-info-modal {
+    --width: 90%;
+    --min-width: 90%;
+    --height: fit-content;
+    --border-radius: 8px;
+    &::part(content) {
+      margin: auto 0 24px 0;
+    }
+    span {
+      line-height: 20px;
+      font-size: 14px;
+      color: #7e7e7e;
+    }
+  }
+  &.hipaa-info-modal {
+    --width: 90%;
+    --min-width: 90%;
+    --height: fit-content;
+    --border-radius: 8px;
+    &::part(content) {
+      margin: auto 0 24px 0;
+    }
+    span {
+      line-height: 20px;
+      font-size: 14px;
+      color: #7e7e7e;
+    }
+  }
+  &.additional-resources-info-modal {
+    --width: 90%;
+    --min-width: 90%;
+    --max-height: 90%;
+    // --height: fit-content;
+    --border-radius: 8px;
+    &::part(content) {
+      margin: auto 0 24px 0;
+    }
+  }
+  &#ion-date-modal {
+    ion-datetime {
+      color: black;
+    }
+  }
+}

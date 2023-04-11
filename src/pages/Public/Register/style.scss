@@ -1,0 +1,46 @@
+#register-page {
+  ion-content {
+    .register-logo {
+      width: 220px;
+      height: 220px;
+      margin: auto;
+    }
+    .register-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    ion-segment {
+      --background: #eee;
+      border-radius: 6px;
+      padding: 2px;
+      ion-segment-button {
+        --color: #7e7e7e;
+        --color-checked: white;
+        --indicator-color: var(--ion-color-primary);
+        --border-radius: 4px;
+        height: 29px;
+      }
+    }
+    ion-item {
+      &.custome-toggle-container {
+        --background: #fafafa;
+        margin-top: 12px;
+        --border-radius: 8px;
+        ion-label {
+          overflow-wrap: break-word;
+          white-space: pre-line;
+          font-size: 14px;
+        }
+      }
+    }
+    ion-button {
+      &.login-btn {
+        font-size: 14px;
+        font-weight: 600;
+        &::part(native) {
+          padding: 0px;
+        }
+      }
+    }
+  }
+}

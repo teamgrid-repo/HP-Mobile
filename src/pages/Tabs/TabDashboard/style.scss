@@ -1,0 +1,71 @@
+#tab-dashboard-page {
+  .header-group {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0 0 60px 0;
+    height: 250px;
+    padding: 42px;
+    overflow: hidden;
+    .leaf-img {
+      position: absolute;
+      right: 25%;
+      bottom: 10%;
+      height: 100%;
+      scale: 1.8;
+      transform: scaleY(-1);
+    }
+    .header-text {
+      z-index: 1;
+      margin: auto 0 0 0;
+      h2 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+        color: var(--ion-color-medium);
+      }
+    }
+    &::before {
+      position: absolute;
+      content: " ";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background-color: #e4efed;
+      border-radius: 0 0 60px 0;
+      // opacity: 0.87;
+    }
+  }
+
+  .menu-group {
+    position: relative;
+    top: -24px;
+    .swiper {
+      padding-bottom: 30px;
+      .swiper-pagination {
+        .swiper-pagination-bullet-active {
+          background-color: var(--ion-color-success);
+        }
+      }
+    }
+  }
+  .appointments-group {
+    padding: 0px 12px;
+    ion-list-header {
+      ion-label {
+        font-size: 14px;
+      }
+    }
+    ion-card.appointment-card {
+      border: 1px solid var(--ion-color-success);
+      ion-card-content {
+        padding: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+#provider-details-page {
+  ion-content {
+    --padding-start: 32px;
+    --padding-end: 32px;
+    --padding-bottom: 32px;
+    --background: #ededed;
+    .provider-title {
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 12px;
+    }
+    .action-group {
+      padding-top: 12px;
+    }
+    .about-group {
+      padding-top: 12px;
+      h3 {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .categories-care-group {
+      padding-top: 12px;
+      .site-list {
+        .category-icon {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+  }
+}

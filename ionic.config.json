@@ -1,0 +1,7 @@
+{
+  "name": "HerPlan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

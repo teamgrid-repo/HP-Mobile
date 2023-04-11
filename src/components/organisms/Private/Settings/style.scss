@@ -1,0 +1,26 @@
+.settings-list {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  height: 100%;
+  overflow-y: auto;
+
+  ion-list-header {
+    padding-left: 0px;
+    ion-label {
+      font-size: 18px;
+    }
+  }
+  ion-item {
+    &.custome-toggle-container {
+      --background: #fafafa;
+      margin-top: 12px;
+      --border-radius: 8px;
+      ion-label {
+        overflow-wrap: break-word;
+        white-space: pre-line;
+        font-size: 16px;
+      }
+    }
+  }
+}

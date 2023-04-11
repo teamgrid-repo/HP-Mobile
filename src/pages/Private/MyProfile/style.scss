@@ -1,0 +1,18 @@
+#my-profile-page {
+  .profile-list {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    ion-list-header {
+      padding-left: 0px;
+      ion-label {
+        font-size: 18px;
+      }
+    }
+    ion-item {
+      ion-label {
+        font-size: 16px;
+      }
+    }
+  }
+}

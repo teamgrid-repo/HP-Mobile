@@ -1,0 +1,16 @@
+.saved-sort-by {
+  ion-item {
+    --padding-start: 0px;
+    --inner-padding-end: 0px;
+  }
+}
+
+.saved-searches-list {
+  padding: 0;
+  margin-bottom: 20px;
+  height: 100%;
+  ion-item {
+    --padding-start: 30px;
+    --inner-padding-end: 30px;
+  }
+}

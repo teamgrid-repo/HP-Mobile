@@ -1,0 +1,22 @@
+#welcome-page {
+  ion-content {
+    --background: url("../../../assets/images/background.png") no-repeat center center / cover;
+
+    .welcome-logo {
+      width: 220px;
+      height: 220px;
+      margin: auto;
+    }
+    .welcome-title {
+      font-size: 28px;
+      color: white;
+      font-weight: bold;
+    }
+    ion-button {
+      &.skiplogin-btn,
+      &.terms-btn {
+        font-size: 14px;
+      }
+    }
+  }
+}
